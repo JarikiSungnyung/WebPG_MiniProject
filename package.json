@@ -1,0 +1,23 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "For sunrin WebProgramming CRUD mini project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JarikiSungnyung/WebPG_MiniProject.git"
+  },
+  "author": "Sungnyung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JarikiSungnyung/WebPG_MiniProject/issues"
+  },
+  "homepage": "https://github.com/JarikiSungnyung/WebPG_MiniProject#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
+  }
+}
