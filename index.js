@@ -69,6 +69,14 @@ app.post("/book/edit", (req, res) => {
   });
 });
 
+app.post("/book/delete/:pageId", (req, res) => {
+  var pageTitle = req.params.pageId;
+
+  fs.unlink(`./page/${pageTitle}.txt`, function (error) {
+    res.redirect("/");
+  });
+});
+
 app.listen(3000, () => {
   console.log("Server listening on port 3000");
 });
